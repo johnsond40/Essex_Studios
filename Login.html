@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Login</title>
+    <title>Login - The Essex Studios</title>
 
 
     <style>
@@ -19,7 +19,7 @@
         }
         
         nav {
-            background-image: url('banner.jpg');
+            background-image: url('images/banner.jpg');
         }
         
         nav h1 {
@@ -62,6 +62,10 @@
                 padding: 0;
             }
         }
+        
+        .social a:hover {
+            opacity: 0.8;
+        }
     </style>
 </head>
 
@@ -78,34 +82,35 @@
             <li><a href="#">LOGIN</a></li>
         </ul>
     </nav>
-
-    <div style="text-align:center">
-        <h1 style="font-family: 'Yanone Kaffeesatz', sans-serif; ">Login</h1>
+    <div class="container fluid">
+        <div style="text-align:center">
+            <h1 style="font-family: 'Yanone Kaffeesatz', sans-serif; ">Login</h1>
+            <hr/>
+            <form style="font-family: 'Yanone Kaffeesatz', sans-serif; font-size:20px;">
+                Email: <input id="sign-in-email" name="email" type="email" class="form-control" placeholder="e.g., youremail@domain.com" />
+                <br> Password: <input name="password" type="password" class="form-control" placeholder="8-16 characters without a space" id="sign-in-password" />
+                <br><a href='#'>Reset Password</a>
+                <br><br>
+                <input type="submit" class="btn btn-primary" />
+            </form>
+        </div>
+        <br>
         <hr/>
-        <form style="font-family: 'Yanone Kaffeesatz', sans-serif; font-size:20px;">
-            Email: <input id="sign-in-email" name="email" type="email" class="form-control" placeholder="e.g., youremail@domain.com" />
-            <br> Password: <input name="password" type="password" class="form-control" placeholder="8-16 characters without a space" id="sign-in-password" />
-            <br><a href='#'>Reset Password</a>
-            <br><br>
-            <input type="submit" class="btn btn-primary" />
-        </form>
-    </div>
-    <br>
-    <hr/>
-    <br>
-    <div class="row">
-        <div class="col-4" style="text-align: center; font-family: 'Yanone Kaffeesatz', sans-serif;">
-            <img alt="Responsive image" class="img-fluid article" src="essex-outlined_3.png">
-            <br>
-            <h3>Cincinnati’s most diverse collection of talent under one roof!</h3>
-        </div>
-        <div class="col-4 social" style="text-align: center;">
-            <a target="_blank" href="https://www.facebook.com/essxstudios/"><img style="width:40px;" src="facebook.png"></a>
-            <a target="_blank" href="https://twitter.com/EssexStudios"><img style="width:40px;" src="twitter.png"></a>
-            <a target="_blank" href="https://www.instagram.com/essexstudios/"><img style="width:40px;" src="instagram.png"></a>
-        </div>
-        <div class="col-4" style="text-align:right; font-family: 'Yanone Kaffeesatz', sans-serif; font-size:20px">
-            <b>​Trent Heimann, Building Owner</b><br> 2511 Essex Place, #114<br> Cincinnati, Ohio 45206<br> Phone: 513-476-2170<br> Email: <a href="mailto: EssexStudio@aol.com">EssexStudio@aol.com</a>
+        <br>
+        <div class="row">
+            <div class="col-4" style="text-align: center; font-family: 'Yanone Kaffeesatz', sans-serif;">
+                <img alt="Responsive image" class="img-fluid article" src="essex-outlined_3.png">
+                <br>
+                <h3>Cincinnati’s most diverse collection of talent under one roof!</h3>
+            </div>
+            <div class="col-4 social" style="text-align: center;">
+                <a target="_blank" href="https://www.facebook.com/essxstudios/"><img style="width:40px;" src="facebook.png"></a>
+                <a target="_blank" href="https://twitter.com/EssexStudios"><img style="width:40px;" src="twitter.png"></a>
+                <a target="_blank" href="https://www.instagram.com/essexstudios/"><img style="width:40px;" src="instagram.png"></a>
+            </div>
+            <div class="col-4" style="text-align:right; font-family: 'Yanone Kaffeesatz', sans-serif; font-size:20px">
+                <b>​Trent Heimann, Building Owner</b><br> 2511 Essex Place, #114<br> Cincinnati, Ohio 45206<br> Phone: 513-476-2170<br> Email: <a href="mailto: EssexStudio@aol.com">EssexStudio@aol.com</a>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
