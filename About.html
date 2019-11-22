@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--link to google font-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <title>The Essex Studios</title>
+
+    <style>
+        @font-face{
+            font-family: Saginaw;
+            src: url(SaginawBold.ttf);
+
+        }
+
+       nav{
+           background-image: url('images/banner.jpg');
+       }
+
+       nav h1{
+            font-family: "Saginaw";
+            font-size: 4.3rem;
+            color:#76b3b8;
+            letter-spacing: 3px;
+            text-align: center;
+            padding-top: 1rem;
+
+        }
+
+        nav ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 0 9rem;
+        }
+
+        nav a:hover{
+            color:#568286;
+            background:rgba(187, 187, 187, 0.76);
+            text-decoration: none;
+        }
+
+        nav a{
+            color: gray;
+            transition: all 0.2s ease-in-out;
+        }
+
+        @media(max-width: 576px){
+
+            nav h1{
+                font-size: 2.5rem;
+                padding-top: 1rem;
+            }
+            nav ul{
+                flex-direction:column;
+                font-size: 1.2rem;
+                padding:0;
+            }
+
+        }
+
+        .about{
+            color: rgb(87, 87, 87);
+            font-family:'Playfair Display', serif;
+            display:flex;
+            flex-direction:column;
+            justify-content:space-evenly;
+            align-items:center;
+        }
+
+        .about h1{
+            font-weight:600;
+            font-size:2.7rem;
+        }
+
+        .about p{
+            padding: 0 5rem;
+        }
+
+        .about img{
+            border: 1px solid black;
+            padding:0.3rem;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <nav>
+
+        <h1>The Essex Studios</h1>
+
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ARTWALKS</a></li>
+            <li><a href="#">ARTISTS</a></li>
+            <li><a href="#">PRESS</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">LOGIN</a></li>  
+        </ul>
+    
+    </nav>
+
+    <div class="about">
+        <h1>ABOUT THE ESSEX</h1>
+        <img src='images/building.jpg'>
+        <p>2511 Essex Pl, Cincinnati, OH 45206<p>
+        <p><strong>Essex Studios</strong>
+            is located in Walnut Hills at the historic Hamilton Tailoring Co. building at the corner 
+            of E. McMillan & Essex Place. The Hamilton Tailoring Co. began converting its Cincinnati 
+            location into artist studios in the 1990s as the American textile industry started to decline.
+             Currently there are close to 200 studios which house artists, designers, craftsmen and even 
+             a church (Missio Dei).</p>
+        <p><strong>Essex Studios</strong>
+            Resident Artists include painters, photographers, sculptors, designers, jewelers, wood 
+            turners, printers, art therapists, fused glass artists, audio technicians, 
+            theatre groups, ceramicists, luxury soap producers, potters, fashion designers and 
+            metal workers just to name a few.</p>
+
+        <p><strong>Essex Studios</strong>
+            is proud to be Cincinnati’s most diverse artist collective and art gallery.
+            All artists, as well as patrons, are welcome into this community space.
+            We hope you’ll join us for one of our quarterly ArtWalk events.
+            ​Learn more by visiting the ArtWalk webpage.</p>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

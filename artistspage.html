@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 
     <title>Artists</title>
 
@@ -24,7 +25,7 @@
         nav h1 {
             font-family: "Saginaw";
             font-size: 4.3rem;
-            color: #76b3b8;
+            color: #76B3B8;
             letter-spacing: 3px;
             text-align: center;
             padding-top: 1rem;
@@ -63,20 +64,35 @@
         }
         
         div {
-            border: 1px solid black;
-            height: 20vh;
+            border: 1.5px solid #76B3B8;
             text-align: center;
         }
         
         ul {
-            display: inline;
-            list-style: none;
+            list-style-type: none;
         }
         
         .sectionHeaders {
             font-family: Saginaw;
             font-size: 300%;
-            color: #76b3b8;
+            color: #D23030;
+            letter-spacing: 2px;
+        }
+        
+        li {
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+            font-size: 35px;
+        }
+        
+        .linkstyle {
+            text-decoration: none;
+            color: #D23030;
+            font-size: 30px;
+        }
+        
+        .artistWebsite {
+            color: #5779EA;
+            text-decoration: none;
         }
     </style>
 
@@ -102,228 +118,451 @@
 
 
 
-    <div class="container-fluid">
-        <div class="col-12">
+    <div class="container-fluid" style="border: none">
+        <div class="col-12" style="border: none">
 
             <!--Code for Particular Artist Page Nav Directions-->
-
-            <div class="row">
-                <div class="col">
+            <hr>
+            <div class="row" style="border: none">
+                <div class="col" style="border: none">
                     <p class="sectionHeaders"> Artist Directory </p>
+                    <p style="font-family: 'Yanone Kaffeesatz', sans-serif; font-size: 25px">Click on any of the Blue Names to Visit that Artist's Website!</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div class="row" style="position:sticky;top:0px;background-color:white;z-index:20">
+                <div class="col-4">
                     <ul>
-                        <li>Basement</li>
-                        <li>1st Floor</li>
-                        <li>Second Floor</li>
+                        <li><a href=#basement class="linkstyle">Basement</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li><a href=#firstFloor class="linkstyle">First Floor</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li><a href=#secondFloor class="linkstyle">Second Floor</a></li>
                     </ul>
                 </div>
             </div>
 
             <!--Code for the Basement Set of Artists-->
 
-            <div class="row">
-                <div class="col">
-                    Basement
+            <div class="row" style="border: none">
+                <div class="col" id="basement" style="border: none">
+                    <p class="sectionHeaders">Basement</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-3">
-                    Name 1
+                    <ul>
+                        <li>Carothers, Annette B-1</li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    Name 2
+                <div class=" col-3 ">
+                    <ul>
+                        <li>
+                            <a href="https://www.mgblacksmith.com/" target="_blank" class="artistWebsite">Gilsdorf, Mark B-5</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    Name 3
+                <div class="col-3 ">
+                    <ul>
+                        <li>Lean Life Fitness B-7</li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    Name 4
+                <div class="col-3 ">
+                    <ul>
+                        <li>​Lighthouse Youth Services B-6</li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-3">
-                    Name 5
+            <div class="row ">
+                <div class="col-3 ">
+                    <ul>
+                        <li>Lipps, Tony B-2</li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    Name 6
+                <div class="col-3 ">
+                    <ul>
+                        <li>​Queen, Jonathan B-3</li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    Name 7
+                <div class="col-3 ">
+                    <ul>
+                        <li>RTS Apparel/RTS Barbell B-4</li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    Name 8
+                <div class="col-3 ">
+                    <ul>
+                        <li>​Risk To Success C & D</li>
+                    </ul>
                 </div>
             </div>
 
             <!--Code for the First Floor Set of Artists-->
 
-            <div class="row">
-                <div class="col">
-                    <p class="sectionHeaders">1st Floor</p>
+            <div class="row " style="border: none ">
+                <div class="col " id="firstFloor " style="border: none ">
+                    <p class="sectionHeaders ">First Floor</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-3">
-                    A Names
+            <div class="row ">
+                <div class="col-3 ">
+                    <ul>
+                        <li>Ardeil, Erika 148 </li>
+                        <li>Art Academy 124 </li>
+                        <li><a href="https://artcirclecincinnati.com/home.html" target="_blank" class="artistWebsite">Art Circle 122</a></li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    B Names
+                <div class="col-3 ">
+                    <ul>
+                        <li>Baxter, Barbara 182 </li>
+                        <li>Bock, Anne Marie 167 </li>
+                        <li><a href="https://artcirclecincinnati.com/section/287681_CLAIR_BREETZ.html" target="_blank" class="artistWebsite">Breetz, Clair 122</a></li>
+                        <li>Brennan, Tom 106</li>
+                        <li>Brett, Roxanne 112</li>
+                        <li><a href="http://kenlandonbuck.org/" target="_blank" class="artistWebsite">Buck, Ken-Landon 128</a></li>
+                        <li>Button, Gail 122</li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    C Names
+                <div class="col-3 ">
+                    <ul>
+                        <li>Campbell, Cranford 100 </li>
+                        <li>Carley, Glen 162</li>
+                        <li>Carothers, Thomas A</li>
+                        <li><a href="http://kenlandonbuck.org/" target="_blank" class="artistWebsite">Caswell-Pearce, Sara 178</a></li>
+                        <li><a href="http://www.nancyfletchercassell.com/index.htm" target="_blank" class="artistWebsite">Cassell, Nancy 161, 176</a></li>
+                        <li>Chapman, Laura 102</li>
+                        <li>Cincy Shirts 129</li>
+                        <li><a href="http://www.nancyfletchercassell.com/index.htm" target="_blank" class="artistWebsite">Curreri, Amanda 145</a></li>
+                        <li><a href="https://cincinnatibookarts.org/" target="_blank" class="artistWebsite">Cincinnati Book Arts Society  164</a></li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    D Names
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    F Names
-                </div>
-                <div class="col-3">
-                    G Names
-                </div>
-                <div class="col-3">
-                    H Names
-                </div>
-                <div class="col-3">
-                    I Names
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    J Names
-                </div>
-                <div class="col-3">
-                    K Names
-                </div>
-                <div class="col-3">
-                    L Names
-                </div>
-                <div class="col-3">
-                    M Names
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    P Names
-                </div>
-                <div class="col-3">
-                    R Names
-                </div>
-                <div class="col-3">
-                    S Names
-                </div>
-                <div class="col-3">
-                    T Names
+                <div class="col-3 ">
+                    <ul>
+                        <li>Davis, David 174</li>
+                        <li><a href="http://www.dianedebevec.com/" target="_blank" class="artistWebsite">Debevec, Diane 130</a></li>
+                        <li><a href="https://www.diyprintingshop.com/index.html" target="_blank" class="artistWebsite">DIY Printing 186, 188</a></li>
+                        <li>Duke, Margaret 103</li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4">
-                    V Names
+            <div class="row ">
+                <div class="col-3 ">
+                    <ul>
+                        <li>Fabe, Carolyn 128</li>
+                        <li>Fisher, Tommy 135</li>
+                        <li><a href="https://www.wellyfletcher.com/" target="_blank" class="artistWebsite">Fletcher, Llewelynn 155</a></li>
+                        <li>Fox, Deborah 152</li>
+                    </ul>
                 </div>
-                <div class="col-4">
-                    W Names
+                <div class="col-3 ">
+                    <ul>
+                        <li><a href="https://sites.google.com/site/essexartcircle/sherry-goodson" target="_blank" class="artistWebsite">Goodson, Sherry 122</a></li>
+                        <li><a href="https://vartfashionfoodiefanatic.tumblr.com/post/93144890654/artist-of-the-day-claudette-graumlich-i-have" target="_blank" class="artistWebsite">Graumlich, Claudette 104</a></li>
+                        <li>Gray, Tonya 138</li>
+                        <li>Grondin, Tim 136</li>
+                    </ul>
                 </div>
-                <div class="col-4">
-                    Y Names
+                <div class="col-3 ">
+                    <ul>
+                        <li><a href="https://www.laurenharley.com/" target="_blank" class="artistWebsite">Harley, Lauren 174</a></li>
+                        <li>Heimann, Trent 114</li>
+                        <li>Hetzel, Rachael 110</li>
+                        <li>Hug, Brenda 122</li>
+                        <li>Hug, Brenda 122</li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li>Isaacs, Gay 122</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-3 ">
+                    <ul>
+                        <li>Jamison, Rita 168</li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li><a href="https://www.karens-studio.com/" target="_blank" class="artistWebsite">Kelly, Karen 125</a></li>
+                        <li>Kelly, Kevin 170</li>
+                        <li>Keltch, Brent 181</li>
+                        <li>Kent, Aaron 188</li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li><a href="http://www.abbydid.com/" target="_blank" class="artistWebsite">Langdon, Abby 108</a></li>
+                        <li>Lemon, Kris 172</li>
+                        <li><a href="http://www.manekinekomuseum.com/" target="_blank" class="artistWebsite">Lucky Cat Museum 150</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li><a href="https://artcirclecincinnati.com/section/410156_Gurdev_Mangat.html" target="_blank" class="artistWebsite">Mangat, Gurdev 122</a></li>
+                        <li>May, James W. E</li>
+                        <li>Mazzola, Randall 180</li>
+                        <li>Meade, Chris 158, 160</li>
+                        <li>Merrick, Hank K</li>
+                        <li>Mincy, Katrina D</li>
+                        <li>Missio Dei Church 107</li>
+                        <li><a href="http://www.seantmullaney.com/" target="_blank" class="artistWebsite">Mullaney, Sean 140</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-3 ">
+                    <ul>
+                        <li>Pichler, Susan 122</li>
+                        <li><a href="https://www.rpmgalleries.com/" target="_blank" class="artistWebsite">Prince, Mark 156</a></li>
+                        <li><a href="https://www.rpmgalleries.com/" target="_blank" class="artistWebsite">Prince, Risa Sreden 156</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li>Reblando, Nicole 150</li>
+                        <li>Reese Jr, Gregory 105</li>
+                        <li><a href="http://www.manekinekomuseum.com/" target="_blank" class="artistWebsite">Robertson, Micha (Lucky Cat Museum) 150</a></li>
+                        <li>Rowen, Barry 142</li>
+                        <li><a href="https://www.diymakingjewelrywiththenicelady.com/" target="_blank" class="artistWebsite">Rucker, Carol 105</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li><a href="https://maryjosage.com/home.html" target="_blank" class="artistWebsite">Sage, Mary Jo 122</a></li>
+                        <li>Smith, Betty 122</li>
+                        <li><a href="https://springerwatercolors.com/home.html" target="_blank" class="artistWebsite">Springer, Connie 122</a></li>
+                        <li>Squeri, Sarah 190</li>
+                        <li>Stadtmiller, Dave 146</li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li><a href="http://www.barbaratrauth.com/home.htm" target="_blank" class="artistWebsite">Trauth, Barb 144</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-4 ">
+                    <ul>
+                        <li><a href="https://www.jvlartanddesign.com/" target="_blank" class="artistWebsite">Van Landuyt, Jamie 132</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 ">
+                    <ul>
+                        <li>Walker, Mike 158, 160</li>
+                        <li>Wycoff, Suzi 122</li>
+                    </ul>
+                </div>
+                <div class="col-4 ">
+                    <ul>
+                        <li>Young, Barb 104</li>
+                    </ul>
                 </div>
             </div>
 
             <!--Code for the Second Floor Set of Artists-->
 
-            <div class="row">
-                <div class="col">
-                    <p class="sectionHeaders">2nd Floor</p>
+            <div class="row " style="border: none ">
+                <div class="col " id="secondFloor " style="border: none ">
+                    <p class="sectionHeaders ">Second Floor</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-3">
-                    A Names
+            <div class="row ">
+                <div class="col-3 ">
+                    <ul>
+                        <li>Abrams, Raymond 200</li>
+                        <li>Anderson, Jen 260</li>
+                        <li>Andrews, Albert 227</li>
+                        <li>Artist Support ORG (ASO) 279</li>
+                        <li>Arthur, Marilyn 249</li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    B Names
+                <div class="col-3 ">
+                    <ul>
+                        <li>Baker, Janiene 201</li>
+                        <li><a href="http://www.banzstudios.com/" target="_blank" class="artistWebsite">Banzhaf, Allison 259</a></li>
+                        <li>Barnes, Maggie 240</li>
+                        <li>Bauer, Roy (Buck) 251</li>
+                        <li>Baumgarten, Don 256</li>
+                        <li>~ available ~ 204</li>
+                        <li>Brinkman, Carolyn 234</li>
+                        <li>Brent-Dunson, Monique 203-B</li>
+                        <li>Brown, Asia 209</li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    C Names
+                <div class="col-3 ">
+                    <ul>
+                        <li>C.E. Distributers 284</li>
+                        <li>Chewning, Jay 283</li>
+                        <li>Cincinnati Actors 273,280,282</li>
+                        <li><a href="http://clayalliance.org/" target="_blank" class="artistWebsite">Clay Alliance 252</a></li>
+                        <li><a href="http://www.susancrew.com/" target="_blank" class="artistWebsite">Crew, Susan 202-B</a></li>
+                    </ul>
                 </div>
-                <div class="col-3">
-                    D Names
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    E Names
-                </div>
-                <div class="col-3">
-                    F Names
-                </div>
-                <div class="col-3">
-                    G Names
-                </div>
-                <div class="col-3">
-                    H Names
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    I Names
-                </div>
-                <div class="col-3">
-                    J Names
-                </div>
-                <div class="col-3">
-                    K Names
-                </div>
-                <div class="col-3">
-                    L Names
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    M Names
-                </div>
-                <div class="col-3">
-                    O Names
-                </div>
-                <div class="col-3">
-                    P Names
-                </div>
-                <div class="col-3">
-                    R Names
+                <div class="col-3 ">
+                    <ul>
+                        <li>~ available ~ 223</li>
+                        <li>Daylight Photo LLC 213</li>
+                        <li><a href="https://www.peterthejeweler.com/" target="_blank" class="artistWebsite">D'Enbeau, Peter 218</a></li>
+                        <li> ~ available ~ 214</li>
+                        <li><a href="https://www.frameconceptsstudio.com/" target="_blank" class="artistWebsite">Doll, Lynann 278</a></li>
+                        <li>Donaldson, Scott 225</li>
+                        <li>Dyas, Leslie 278</li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4">
-                    S Names
+            <div class="row ">
+                <div class="col-3 ">
+                    <ul>
+                        <li><a href="https://www.jimeffler.com/" target="_blank" class="artistWebsite">Effler, Jim 220</a></li>
+                    </ul>
                 </div>
-                <div class="col-4">
-                    T Names
+                <div class="col-3 ">
+                    <ul>
+                        <li><a href="https://www.frameconceptsstudio.com/" target="_blank" class="artistWebsite">Frame Concepts 278</a></li>
+                    </ul>
                 </div>
-                <div class="col-4">
-                    W Names
+                <div class="col-3 ">
+                    <ul>
+                        <li>Gerena, David 203-A</li>
+                        <li><a href="https://www.instagram.com/codyart/" target="_blank" class="artistWebsite">Goodin, Cody 251</a></li>
+                        <li>Guthridge Landen, Barbara 226, 228</li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li><a href="http://www.cindyhamannpastels.com/home.html" target="_blank" class="artistWebsite">Hamann, Cindy 226, 228</a></li>
+                        <li><a href="https://uncommonartist.com/" target="_blank" class="artistWebsite">Hartz, Dave 268</a></li>
+                        <li>Heimann, Bob 216</li>
+                        <li>Heimann, Michelle 254</li>
+                        <li>Holtkamp, Karen 248</li>
+                        <li>Horn, Christopher 276</li>
+                        <li><a href="https://gildahorn.com/home.html" target="_blank" class="artistWebsite">Horn, Gilda 247</a></li>
+                        <li>Heimann, Michelle 254</li>
+                        <li>Howes, Nancy 203-B</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-3 ">
+                    <ul>
+                        <li>Isgrig, Jan 266</li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li>Jackson, Peter 230</li>
+                        <li><a href="https://www.youtube.com/watch?v=AKeWdwA06YE" target="_blank" class="artistWebsite">Horn, Gilda 247</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li>Kamholtz, Sally Elder 226, 228</li>
+                        <li>Klein, Karen 262</li>
+                        <li>Koverman, John 270</li>
+                        <li>Koverman, Marcia 270</li>
+                        <li><a href="https://www.youtube.com/user/HTEK207" target="_blank" class="artistWebsite">Krause, R. Winston 207</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li>Laug, David 238</li>
+                        <li>Lawrence, Malachi 212</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-3 ">
+                    <ul>
+                        <li>Mainland, Brad 283</li>
+                        <li>Manley, Douglas 208</li>
+                        <li><a href="http://mbmartinart.com/" target="_blank" class="artistWebsite">Martin, Mary Beth 255</a></li>
+                        <li>Martin, William 255</li>
+                        <li><a href="https://marioncorbinmayer.weebly.com/" target="_blank" class="artistWebsite">Mayer, Marion Corbin 231</a></li>
+                        <li>McKerrell, Robin 211</li>
+                        <li>Meador, Rhonda 230</li>
+                        <li><a href="https://www.askart.com/artist/Jack_Meanwell/124097/Jack_Meanwell.aspx" target="_blank" class="artistWebsite">Meanwell, Jack 257</a></li>
+                        <li>Mehter, Angela 264</li>
+                        <li>Mehter, Ariff 264</li>
+                        <li>Merhar, Dan 202-A</li>
+                        <li><a href="http://www.cincyart.com/the-return-to-beauty-2017/lisa-molyneux-2" target="_blank" class="artistWebsite">Molyneux, Lisa 244</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li>Ollidare, Michael Oladipo 215</li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li>Parrott, John 258</li>
+                    </ul>
+                </div>
+                <div class="col-3 ">
+                    <ul>
+                        <li>Radovsky, Joseph 210</li>
+                        <li><a href="https://www.sharireplogle.com/" target="_blank" class="artistWebsite">Molyneux, Lisa 244</a></li>
+                        <li>Rich, Lenoir Bischoff 205</li>
+                        <li>Robertson, Micha 250</li>
+                        <li>Rubin, Diane 226, 228</li>
+                        <li>Rybolt, William 237, 239</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-4 ">
+                    <ul>
+                        <li>Schaffner, Charles 211</li>
+                        <li><a href="https://www.mikkischaffner.com/" target="_blank" class="artistWebsite">Schaffner, Mikki 211</a></li>
+                        <li>Sczur, Jenn 250</li>
+                        <li>Stengle, Kathleen 272</li>
+                        <li>Stevens, Clark 233</li>
+                    </ul>
+                </div>
+                <div class="col-4 ">
+                    <ul>
+                        <li>Tolentino, Teresa 203-B</li>
+                    </ul>
+                </div>
+                <div class="col-4 ">
+                    <ul>
+                        <li><a href="https://www.mikkischaffner.com/" target="_blank" class="artistWebsite">Weeks, Trish 245</a></li>
+                        <li>Welham, Suzanne 225</li>
+                        <li><a href="http://projectplane.com/" target="_blank" class="artistWebsite">Wood, Jacqueline 274</a></li>
+                    </ul>
                 </div>
             </div>
 
             <!--Code for the Footer-->
+
             <hr>
-            <div class="row">
-                <div class="col-4">
-                    Logo
+
+            <div class="row" style="border:none">
+                <div class="col-4" style="text-align: center; font-family: 'Yanone Kaffeesatz', sans-serif; border: none;">
+                    <img alt="Responsive image" class="img-fluid article" src="essex-outlined_3.png">
+                    <br>
+                    <h3>Cincinnati’s most diverse collection of talent under one roof!</h3>
                 </div>
-                <div class="col-4">
-                    Social Medias
+                <div class="col-4 social" style="text-align: center; border:none">
+                    <a target="_blank" href="https://www.facebook.com/essxstudios/"><img style="width:40px;" src="facebook.png"></a>
+                    <a target="_blank" href="https://twitter.com/EssexStudios"><img style="width:40px;" src="twitter.png"></a>
+                    <a target="_blank" href="https://www.instagram.com/essexstudios/"><img style="width:40px;" src="instagram.png"></a>
                 </div>
-                <div class="col-4">
-                    Address Info
+                <div class="col-4" style="text-align:right; font-family: 'Yanone Kaffeesatz', sans-serif; font-size:20px; border:none">
+                    <b>​Trent Heimann, Building Owner</b>
+                    <br> 2511 Essex Place, #114<br> Cincinnati, Ohio 45206<br> Phone: 513-476-2170
+                    <br> Email: <a href="mailto: EssexStudio@aol.com">EssexStudio@aol.com</a>
                 </div>
             </div>
+            <br>
         </div>
     </div>
-
 </body>
 
 </html>
