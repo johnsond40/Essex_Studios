@@ -12,27 +12,40 @@
     <title>The Essex Studios</title>
 
     <style>
-        @font-face{
+        .map-container {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+        }
+        
+        .map-container iframe {
+            left: 0;
+            top: 0;
+            height: 20%;
+            width: 100%;
+            position: absolute;
+        }
+        
+        @font-face {
             font-family: Saginaw;
             src: url(SaginawBold.ttf);
-
         }
-
-       nav{
-           background-image: url('images/banner.jpg');
-       }
-
-       nav h1{
+        
+        nav {
+            background-image: url('images/banner.jpg');
+        }
+        
+        nav h1 {
             font-family: "Saginaw";
             font-size: 4.3rem;
-            color:#76b3b8;
+            color: #76b3b8;
             letter-spacing: 3px;
             text-align: center;
             padding-top: 1rem;
-
         }
-
-        nav ul{
+        
+        nav ul {
             list-style: none;
             display: flex;
             flex-direction: row;
@@ -40,33 +53,32 @@
             align-items: center;
             padding: 0 9rem;
         }
-
-        nav a:hover{
-            color:#568286;
-            background:rgba(187, 187, 187, 0.76);
+        
+        nav a:hover {
+            color: #568286;
+            background: rgba(187, 187, 187, 0.76);
             text-decoration: none;
         }
-
-        nav a{
+        
+        nav a {
             color: gray;
             transition: all 0.2s ease-in-out;
         }
-
-        @media(max-width: 576px){
-
-            nav h1{
+        
+        @media(max-width: 576px) {
+            nav h1 {
                 font-size: 2.5rem;
                 padding-top: 1rem;
             }
-            nav ul{
-                flex-direction:column;
+            nav ul {
+                flex-direction: column;
                 font-size: 1.2rem;
-                padding:0;
+                padding: 0;
             }
         }
-        
     </style>
 </head>
+
 <body>
     <nav>
 
@@ -78,10 +90,188 @@
             <li><a href="#">ARTISTS</a></li>
             <li><a href="#">PRESS</a></li>
             <li><a href="#">ABOUT</a></li>
-            <li><a href="#">LOGIN</a></li>  
+            <li><a href="#">LOGIN</a></li>
         </ul>
-    
+
     </nav>
+
+    <img src="Graph.jpg" style="height: 16vh; width: 100vw;">
+
+    <div class="row">
+        <div class="col-5">
+        </div>
+        <div class="col-2">
+            <a href="https://www.facebook.com/essxstudios/"><img class="col-4" src="facebook.png"></a>
+            <a href="https://twitter.com/EssexStudios"><img class="col-3" src="twitter.png"></a>
+            <a href="https://www.instagram.com/essexstudios/"><img class="col-4" src="social.png"></a>
+        </div>
+        <div class="col-5">
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6">
+            <img class="col-4" src="essx1.jpg">
+            <img class="col-3" src="essx2.png">
+            <img class="col-4" src="essx3.jpg">
+        </div>
+        <div class="col-3">
+        </div>
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6" style="font-size: 170%; text-align: center;">
+            Cincinnati’s most diverse collection of talent under one roof!
+            <p></p>
+        </div>
+        <div class="col-3">
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6" style=" text-align: center;">
+            <p style="font-size: 200%;">Please join us for our very first</p>
+            <p style="font-size: 300%;">First Friday</p>
+            <p style="font-size: 200%;">Preview!</p>
+        </div>
+        <div class="col-3">
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6">
+            <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+            <hr class="styled-hr" style="width:100%;">
+            <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+        </div>
+        <div class="col-3">
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
+            <img src="essx4.jpg">
+        </div>
+        <div class="col-2">
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6">
+            <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+            <hr class="styled-hr" style="width:100%;">
+            <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+        </div>
+        <div class="col-3">
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
+            <p style="font-size: 120%;">You will have the opportunity to visit artists’ studios, meet the artists, wander the halls and enjoy the work of both emerging and established artists who are invited to each event, all while enjoying food, drink, live entertainment and interactive
+                art displays!
+            </p>
+        </div>
+        <div class="col-2">
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+        </div>
+        <div class="col-4">
+
+            <iframe width="401" height="255" src="https://www.youtube.com/embed/XZ1Dzk_LjM0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+        <div class="col-4">
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6" style=" text-align: center;">
+            <p style="font-size: 200%;">And don't forget our </p>
+            <p style="font-size: 200%;">HOLIDAY ARTWALK</p>
+            <p style="font-size: 200%;">DECEMBER 6 & 7</p>
+            <p style="font-size: 200%;">Friday and Saturday night, 6 - 10 pm</p>
+        </div>
+        <div class="col-3">
+        </div>
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6">
+            <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+            <hr class="styled-hr" style="width:100%;">
+            <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+        </div>
+        <div class="col-3">
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6" style=" text-align: center;">
+            <p style="font-size: 150%;">​​The Essex is located between Walnut Hills, Clifton and OTR, where I-71 and Reading Road meet.</p>
+        </div>
+        <div class="col-3">
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6" style=" text-align: center;">
+
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                <iframe src="https://maps.google.com/maps?ll=39.167155,-84.696739&z=7&t=m&hl=en-US&gl=US&mapclient=apiv3" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+        </div>
+        <div class="col-3">
+        </div>
+
+    </div>
+
 
 
 
@@ -92,4 +282,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
